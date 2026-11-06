@@ -1,0 +1,5 @@
+﻿specimen,label_mode,selected_lnr_m,only_f1_percent,rc_f1_percent,change_percentage_points,only_TP,only_FP,only_FN,rc_TP,rc_FP,rc_FN,gt_positive_cells,status
+S01,damage,0.025,41.06,38.25,-2.81,62,136,42,35,44,69,104,PRELIMINARY - not independent validated accuracy
+S02,damage,0.01,56.58,75.7,19.12,86,118,14,95,56,5,100,PRELIMINARY - not independent validated accuracy
+S03,damage,0.015501,72.46,88.89,16.43,50,38,0,40,0,10,50,PRELIMINARY - not independent validated accuracy
+S04,damage,0.03,54.76,71.63,16.87,92,36,116,125,16,83,208,PRELIMINARY - not independent validated accuracy

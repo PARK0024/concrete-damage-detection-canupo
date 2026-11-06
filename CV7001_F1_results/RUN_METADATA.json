@@ -1,0 +1,19 @@
+{
+  "config_path": "CV7001_F1_study_config_PRIVATE.json",
+  "config_sha256": "711bcf5338935cf61cc98cd995fd40e2f9b866353a257374a74a393f2c293e98",
+  "data_directory": "CV7001_F1_input",
+  "label_modes": [
+    "damage"
+  ],
+  "qc_gt_consistency": "Both QC overlays derive from the exact rectified F1 scoring GT mask; full-photo QC uses inverse-perspective projection.",
+  "research_status": "PROVISIONAL; manual damage labeling and approximate image registration",
+  "cautions": [
+    "No independent held-out dataset, so scores are not proof of generalisation.",
+    "Manually estimated photo bounding corners/spall regions require review.",
+    "Full-size photo review does NOT imply accurate photo-to-cloud registration: check alignment images.",
+    "Photo ROI coordinates are scaled by reference image size; new crops or viewpoints require manual registration.",
+    "Image-based CANUPO outputs are NOT per-point class labels; black gaps are not counted as damage.",
+    "Do not adjust thresholds after inspecting model performance to force an improvement.",
+    "Damage and line-only versions are both reported to show sensitivity to the label definition."
+  ]
+}

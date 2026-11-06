@@ -1,0 +1,459 @@
+{
+  "study": "CV7001 concrete damage: CANUPO Only versus roughness-conditioned CANUPO",
+  "settings": {
+    "rectified_size": 600,
+    "grid_size": 20,
+    "colour_brightness_min": 20,
+    "gt_buffer_fraction_of_height": 0.03,
+    "gt_damage_area_fraction_per_cell": 0.08,
+    "predicted_damage_red_fraction": 0.25,
+    "min_classified_pixels_per_cell": 15
+  },
+  "sensitivity_buffer_fractions": [
+    0.02,
+    0.03,
+    0.05
+  ],
+  "sensitivity_red_fractions": [
+    0.2,
+    0.25,
+    0.3
+  ],
+  "samples": [
+    {
+      "id": "S01",
+      "selected_lnr_m": 0.025,
+      "ground_truth_photo": "S01_gt.png",
+      "canupo_only": "S01_only.png",
+      "roughness_canupo": "S01_rc.png",
+      "photo_corners_xy": [
+        [
+          3,
+          3
+        ],
+        [
+          815,
+          3
+        ],
+        [
+          722,
+          1000
+        ],
+        [
+          130,
+          997
+        ]
+      ],
+      "provisional_spall_polygons_norm": [],
+      "notes": "Mostly line cracks. Oblique photo: rectification is approximate.",
+      "photo_reference_size_wh": [
+        819,
+        1006
+      ]
+    },
+    {
+      "id": "S02",
+      "selected_lnr_m": 0.01,
+      "ground_truth_photo": "S02_gt.png",
+      "canupo_only": "S02_only.png",
+      "roughness_canupo": "S02_rc.png",
+      "photo_corners_xy": [
+        [
+          3,
+          0
+        ],
+        [
+          585,
+          0
+        ],
+        [
+          587,
+          906
+        ],
+        [
+          5,
+          906
+        ]
+      ],
+      "provisional_spall_polygons_norm": [
+        [
+          [
+            0.01,
+            0.85
+          ],
+          [
+            0.12,
+            0.85
+          ],
+          [
+            0.25,
+            0.86
+          ],
+          [
+            0.4,
+            0.86
+          ],
+          [
+            0.55,
+            0.88
+          ],
+          [
+            0.7,
+            0.86
+          ],
+          [
+            0.85,
+            0.85
+          ],
+          [
+            0.98,
+            0.87
+          ],
+          [
+            0.98,
+            0.93
+          ],
+          [
+            0.89,
+            0.92
+          ],
+          [
+            0.78,
+            0.94
+          ],
+          [
+            0.66,
+            0.95
+          ],
+          [
+            0.55,
+            0.94
+          ],
+          [
+            0.43,
+            0.92
+          ],
+          [
+            0.3,
+            0.93
+          ],
+          [
+            0.19,
+            0.92
+          ],
+          [
+            0.07,
+            0.91
+          ],
+          [
+            0.01,
+            0.91
+          ]
+        ]
+      ],
+      "notes": "Spalled zone approximately interpreted from outlined lower band. REVIEW polygon against photo.",
+      "photo_reference_size_wh": [
+        593,
+        921
+      ]
+    },
+    {
+      "id": "S03",
+      "selected_lnr_m": 0.015501,
+      "ground_truth_photo": "S03_gt.png",
+      "canupo_only": "S03_only.png",
+      "roughness_canupo": "S03_rc.png",
+      "photo_corners_xy": [
+        [
+          2,
+          12
+        ],
+        [
+          838,
+          5
+        ],
+        [
+          838,
+          742
+        ],
+        [
+          29,
+          741
+        ]
+      ],
+      "provisional_spall_polygons_norm": [
+        [
+          [
+            0.01,
+            0.94
+          ],
+          [
+            0.12,
+            0.92
+          ],
+          [
+            0.23,
+            0.92
+          ],
+          [
+            0.37,
+            0.91
+          ],
+          [
+            0.52,
+            0.92
+          ],
+          [
+            0.6,
+            0.9
+          ],
+          [
+            0.69,
+            0.89
+          ],
+          [
+            0.79,
+            0.91
+          ],
+          [
+            0.88,
+            0.9
+          ],
+          [
+            0.98,
+            0.86
+          ],
+          [
+            0.99,
+            0.98
+          ],
+          [
+            0.01,
+            0.98
+          ]
+        ]
+      ],
+      "notes": "Thin spalling/crushing strip at bottom; hand-interpreted, not independently validated.",
+      "photo_reference_size_wh": [
+        840,
+        748
+      ]
+    },
+    {
+      "id": "S04",
+      "selected_lnr_m": 0.03,
+      "ground_truth_photo": "S04_gt.png",
+      "canupo_only": "S04_only.png",
+      "roughness_canupo": "S04_rc.png",
+      "photo_corners_xy": [
+        [
+          2,
+          10
+        ],
+        [
+          808,
+          10
+        ],
+        [
+          808,
+          741
+        ],
+        [
+          1,
+          740
+        ]
+      ],
+      "provisional_spall_polygons_norm": [
+        [
+          [
+            0.13,
+            0.53
+          ],
+          [
+            0.23,
+            0.49
+          ],
+          [
+            0.3,
+            0.49
+          ],
+          [
+            0.38,
+            0.52
+          ],
+          [
+            0.49,
+            0.6
+          ],
+          [
+            0.57,
+            0.57
+          ],
+          [
+            0.67,
+            0.55
+          ],
+          [
+            0.82,
+            0.54
+          ],
+          [
+            0.93,
+            0.52
+          ],
+          [
+            0.99,
+            0.57
+          ],
+          [
+            0.99,
+            0.66
+          ],
+          [
+            0.83,
+            0.67
+          ],
+          [
+            0.65,
+            0.66
+          ],
+          [
+            0.48,
+            0.67
+          ],
+          [
+            0.31,
+            0.65
+          ],
+          [
+            0.16,
+            0.65
+          ],
+          [
+            0.11,
+            0.61
+          ]
+        ],
+        [
+          [
+            0.1,
+            0.72
+          ],
+          [
+            0.28,
+            0.74
+          ],
+          [
+            0.35,
+            0.78
+          ],
+          [
+            0.42,
+            0.85
+          ],
+          [
+            0.5,
+            0.81
+          ],
+          [
+            0.56,
+            0.81
+          ],
+          [
+            0.68,
+            0.87
+          ],
+          [
+            0.87,
+            0.85
+          ],
+          [
+            0.95,
+            0.75
+          ],
+          [
+            0.99,
+            0.97
+          ],
+          [
+            0.76,
+            0.97
+          ],
+          [
+            0.55,
+            0.96
+          ],
+          [
+            0.37,
+            0.97
+          ],
+          [
+            0.16,
+            0.97
+          ],
+          [
+            0.04,
+            0.92
+          ],
+          [
+            0.02,
+            0.83
+          ]
+        ],
+        [
+          [
+            0.01,
+            0.61
+          ],
+          [
+            0.09,
+            0.66
+          ],
+          [
+            0.22,
+            0.66
+          ],
+          [
+            0.35,
+            0.66
+          ],
+          [
+            0.45,
+            0.67
+          ],
+          [
+            0.5,
+            0.73
+          ],
+          [
+            0.41,
+            0.8
+          ],
+          [
+            0.31,
+            0.75
+          ],
+          [
+            0.2,
+            0.75
+          ],
+          [
+            0.1,
+            0.76
+          ],
+          [
+            0.01,
+            0.71
+          ]
+        ]
+      ],
+      "notes": "Complex spalling outlines. Polygons are INITIAL APPROXIMATIONS; revision is mandatory before final accuracy claim.",
+      "photo_reference_size_wh": [
+        818,
+        748
+      ]
+    }
+  ],
+  "study_notes": "photo_corners_xy was recorded in photo_reference_size_wh pixel coordinates; the script rescales corners when the same photograph is supplied at a different resolution. If the photograph is recropped or photographed from a different viewpoint, update corner coordinates. Review Sxx_damage_alignment_check.png before interpreting scores.",
+  "gt_visualisation_note": "The full-photo GT preview is an inverse-perspective projection of the EXACT 600x600 rectified mask used for image-grid scoring. Both review and alignment-check overlays include the same 3%-height crack buffer and configured spalling polygons. Preview and rectified renderings have different geometry; the source scoring mask is identical. This update does not alter F1 scoring parameters."
+}
